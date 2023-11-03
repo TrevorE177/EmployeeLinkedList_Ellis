@@ -3,8 +3,6 @@ using System.Globalization;
 using EmployeeLinkedList_Ellis;
 using System.Security.Cryptography.X509Certificates;
 
-// Edit method
-// Finish Menu items
 
 namespace EmployeeLinkedList_Ellis
 {

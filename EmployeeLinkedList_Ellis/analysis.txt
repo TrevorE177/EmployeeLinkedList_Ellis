@@ -1,0 +1,15 @@
+﻿When trying out various linked lists, I struggled with even the basic singly linked list.
+One thing which helped me understand and keep track of all of the moving parts was keeping the methods for adding nodes very modular.
+This proved difficult to sort however so I opted to use a variation on the linked list we practiced in class in a way that made sense to me.  
+
+Another thing that was important to me was maintaining minimal classes for my operations.  I find it easier to manage when I have fewer references to keep track of.  (I really struggled with this in my menu class)
+
+I'm not especially happy with the way I search for various strings or the way I split and parse the name and salary columns.  
+I'm certain there is a more compact way of handling the data but this is what worked for me.
+Althought, I think my choice to clean the salary string for a decimal conversion was the maybe the simplest way I could have parsed the data.  
+I'm curious about the performance implications as in a large list they could maybe be much more significant.
+I also don't like my handling of the column header "Salary" but I can't find another way of skipping that row.  (Maybe indexing each column with LINQ to CSV in Employees.cs and deleting the first row?)
+
+I think my menu looks pretty clean and I am satisfied with my choices as I think they're very user friendly.  (Minor as far as the processes of the application but still important I think)
+
+While I wish I could have accomplished more, in the areas where I'm missing procedures, I know exactly what I wanted to do and in most cases how I wanted to do it.

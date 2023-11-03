@@ -6,13 +6,6 @@ using System.Text;
 using System.Threading.Tasks;
 using EmployeeLinkedList_Ellis;
 
-// View Employee List
-// Find: Return all data for given employee based on search criteria (Lastname, Firstname, or Department)
-// Add employee
-// Display average employee salary
-// Edit Employee (All fields are editable)
-// Delete Employee (Deletes Duplicates)
-
 namespace EmployeeLinkedList_Ellis
 {
     internal class Menu
@@ -107,7 +100,7 @@ namespace EmployeeLinkedList_Ellis
                     decimal salary = Convert.ToDecimal(Console.ReadLine());
                     Console.Write("Department (CEO; DEVELOPMENT; DISTRIBUTION; FINANCE; HR; IT; LEGAL; MGMT; SALES; SECURITY; UNASSIGNED): ");
                     string department = Console.ReadLine().ToString();
-                    Company.Add(lastName, firstName, gender, salary, department);
+                    //Company.Add(lastName, firstName, gender, salary, department);
                     Console.WriteLine();
                     Console.WriteLine("Employee added");
                     PressKey();
